@@ -1,4 +1,4 @@
-class Parent
+public class Parent
 {
 	int x = 10;
 	double y = 10.11;
@@ -9,7 +9,7 @@ class Parent
 	}
 }
 
-class Child extends Parent
+public class Child extends Parent
 {
 	int x = 20;
 	double y = 20.11;
@@ -33,7 +33,7 @@ class Child extends Parent
 	}
 }
 
-class Program3 
+public class Program3 
 {
 	public static void main(String[] args) 
 	{
